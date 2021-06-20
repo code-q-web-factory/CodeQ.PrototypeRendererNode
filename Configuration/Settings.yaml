@@ -1,0 +1,13 @@
+
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        CodeQ.PrototypeRendererNode: true
+    userInterface:
+      translation:
+        autoInclude:
+          CodeQ.PrototypeRendererNode:
+            - 'Fusion/*'
+            - 'NodeTypes/*'
+
